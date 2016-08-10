@@ -1,0 +1,9 @@
+{
+    "name": "masterpass/masterpassmerchantsdk",
+    "version":"1.0.0",
+    "description": "PHP Masterpass Merchant Checkout Service SDK",
+	"homepage": "https://developer.mastercard.com",
+	"require": {
+		"php": ">=5.5.0"
+	}
+}
