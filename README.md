@@ -4,7 +4,7 @@ PHP Masterpass Merchant Checkout Service SDK for use with PHP Core SDK on Master
 
 Pre-Requisites for using PHP MasterCard Masterpass Merchant SDK:
 
- *  PHP 5.5 or 5.6
+ *  PHP 5.5 or Higher
  *  Download MasterCardCoreSDK.phar from https://github.com/Masterpass/MasterCardCoreSDK-PHP
  *  Download MasterCardMasterPassMerchant phar file for using masterpass merchant sdk
  
@@ -16,7 +16,7 @@ Pre-Requisites for using PHP MasterCard Masterpass Merchant SDK:
  ```
  {
   "require": {
-  "masterpass/masterpassmerchantsdk":"1.0.0"
+  "masterpass/masterpassmerchantsdk":"1.1.0"
    }
  }
 ```
