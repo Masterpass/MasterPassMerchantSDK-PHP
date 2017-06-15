@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 2.0.0
+
+_2017-06-12_
+
+### Features
+* Simplified the merchant checkout flow with new masterpass checkout APIs services.
+
 
 ## Version 1.1.0
 
@@ -17,4 +24,4 @@ _2016-08-09_
 
 Initial release.
 
-**Masterpass Merchant Checkout Service SDK released with this version.**
+**Masterpass Merchant Checkout SDK released with this version.**
