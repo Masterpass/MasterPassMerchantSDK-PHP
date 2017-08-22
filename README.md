@@ -10,20 +10,47 @@ Pre-Requisites for using PHP MasterCard Masterpass Merchant Checkout SDK:
  
 ##### Note: Refer to mastercard developer zone for documentation on SDKs for implementation reference and avoid potential break in your existing code if you upgrade with higher version.
  
- These phar can be downloaded from github directly or by using composer dependency.
  
- If you do not have composer installed you can download it from https://getcomposer.org/
+##### Documentation for SDK Integration: 
+
+For Masterpass V6 : 
+
+For configuration and pre-requisites: https://developer.mastercard.com/documentation/masterpass-merchant-integration/
+For standard/express checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration/#tutorials
+
+For Masterpass V7:
+
+For configuration and pre-requisites https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7
+For standard checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7#standard-checkout 
  
- To download these phar as composer dependency, put a file named composer.json at the root of your project, containing as your project dependencies:
+
+These phar can be downloaded from github directly or by using composer dependency.
+ 
+If you do not have composer installed you can download it from https://getcomposer.org/
+ 
+To download these phar as composer dependency, put a file named composer.json at the root of your project, containing as your project dependencies:
+ 
+MasterCardMasterPassMerchant SDK v6 :
+  
  ```
  {
   "require": {
-  "masterpass/mpasscoresdk":"2.0.0"
+  
+  "masterpass/masterpassmerchantsdk":"1.1.0"
+   }
+ }
+```
+ 
+MastercardMerchantCheckout SDK v7 :
+  
+ ```
+ {
+  "require": {
+  
   "masterpass/masterpassmerchantsdk":"2.0.0"
    }
  }
 ```
-
 In order to import above package in your application, you need to use following composer command after installing composer locally:
 
 > composer install or composer update
