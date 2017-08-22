@@ -35,8 +35,7 @@ MasterCardMasterPassMerchant SDK v6 :
  ```
  {
   "require": {
-  
-  "masterpass/masterpassmerchantsdk":"1.1.0"
+  	"masterpass/masterpassmerchantsdk":"1.1.0"
    }
  }
 ```
@@ -46,8 +45,7 @@ MastercardMerchantCheckout SDK v7 :
  ```
  {
   "require": {
-  
-  "masterpass/masterpassmerchantsdk":"2.0.0"
+  	"masterpass/masterpassmerchantsdk":"2.0.0"
    }
  }
 ```
