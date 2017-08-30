@@ -13,8 +13,6 @@ Pre-Requisites for using PHP MasterCard Masterpass Merchant Checkout SDK:
  
 ##### Documentation for SDK Integration: 
 
-For Masterpass V6 : 
-
 For configuration and pre-requisites: https://developer.mastercard.com/documentation/masterpass-merchant-integration/
 
 These phar can be downloaded from github directly or by using composer dependency.
