@@ -22,6 +22,7 @@ For Masterpass V7:
 
 For configuration and pre-requisites https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7 
 For standard checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7#standard-checkout
+For express checkout integration: https://developer.mastercard.com/documentation/masterpass-merchant-integration/v7-Express 
 
 These phar can be downloaded from github directly or by using composer dependency.
  
@@ -44,7 +45,7 @@ MastercardMerchantCheckout SDK v7 :
  ```
  {
   "require": {
-  	"masterpass/masterpassmerchantsdk":"2.0.0"
+  	"masterpass/masterpassmerchantsdk":"2.1.0"
    }
  }
 ```
